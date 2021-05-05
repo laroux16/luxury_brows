@@ -1,0 +1,594 @@
+div{
+/* border: 1px solid red;    */
+    float: left;
+    text-align:center;
+    box-sizing: border-box; 
+    font-family: Montserrat;
+    font: 36px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 27px;
+    
+}
+
+section{
+    
+       /* border: 1px solid red;    */
+           float: center;
+           text-align:center;
+           box-sizing: border-box; 
+           font-family: Montserrat;
+           font: 36px;
+           margin: 0px;
+           padding: 0px;
+           line-height: 27px;
+}
+
+header{
+    /* background: #FFEDF8*/
+    padding: 0px;
+    font-family: Montserrat;
+    
+}
+
+.white{
+    color: #6D6D6D;
+   
+    text-align:right; 
+    max-width: 99%; 
+   
+    
+    
+}
+
+
+
+span.white2{
+    color: rgb(255, 255, 255);
+   /* border: red solid 1px;*/
+    text-align:left; /* не понятно чому неможу составити span ліворуч */
+}
+
+
+
+
+   a { padding: 22px; 
+    /* border: red solid 1px;*/
+    
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 2px 2px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    display: inline-block;
+text-align: left;
+}
+
+.nav_top{
+        text-align: center;
+}
+
+/*.nav_top5{
+    text-align: center;
+    position: relative;
+text-align: center;
+width:100%;
+color:#694639;
+    font-family: Montserrat;
+    text-decoration: none;
+    border: red solid 1px;}
+       
+.nav_top5:hover{
+    color: #db8727;
+    font-family: Montserrat;
+}
+ */
+.nav_top:link{color:#694639;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+.nav_top:visited{color:#694639;
+    font-family: Montserrat;
+}
+
+.nav_top:hover{color: #db8727;
+    font-family: Montserrat;
+}
+
+.nav_top4{
+    font-family: Montserrat;
+   
+box-sizing: border-box;
+margin-top: 0px;
+margin-bottom: 0px; /*відступи між div було 60px*/
+position: relative;
+text-align: center;
+letter-spacing: 0px;
+color:#694639;
+padding-top: 0px;
+padding-bottom: 0px;
+text-decoration: none;
+text-align: center;
+margin-left: 45%;
+display: inline-block;
+bottom: red solid 1px;
+}
+
+.nav_top4:link{color:#694639;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+.nav_top4:visited{color:#694639;
+    font-family: Montserrat;
+}
+
+.nav_top4:hover{color: #db8727;
+    font-family: Montserrat;
+}
+.div{
+    /* border: 1px solid red;   */
+       
+       text-align:center;
+       box-sizing: border-box; 
+       font-family: Montserrat;
+       float: center;
+       margin: 0px;
+       padding: 0px;
+       line-height: 27px;
+       display: inline-flex;
+       min-height: 200px;
+max-width: 100%;
+   }
+
+.nav_top2{
+    font-family: Montserrat;
+    width:100%;
+box-sizing: border-box;
+margin-top: 0px;
+margin-bottom: 0px; /*відступи між div було 60px*/
+font-size: 42px;
+position: relative;
+text-align: center;
+letter-spacing: 0px;
+color:#694639;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.nav_top3{
+    font-family: Montserrat;
+    width:100%;
+box-sizing: border-box;
+margin-top: 0px;
+margin-bottom: 0px; /*відступи між div*/
+font-size: 42px;
+position: relative;
+text-align: center;
+letter-spacing: 0px;
+color:#694639;
+padding-top: 0px;
+padding-bottom: 0px;
+
+}
+
+hr{color:#694639;
+}
+
+p{
+     /*text-transform: uppercase;(зьільшує всі букви )*/
+    text-align: center; /*(чому не виходить по центру поставити????)*/
+  
+
+}
+
+body{
+    background-image: url(css/b/LuxuryBrows-background.jpg);
+    position: relative;
+                padding-bottom: 58px;
+                box-sizing: border-box;
+                min-height: 100%;
+                flex-direction: column;
+}
+
+.text1{
+    min-height: 150px;
+    width: 1500px; /*(ширина у пх)*/
+    max-width: 100%; /*(ширина вікна)*/
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 2px 2px;
+    background: white ;
+    margin-top: 0px;
+    
+    
+
+}
+    
+
+.text2{
+min-height: 200px;
+max-width: 100%;
+width:100%;
+box-sizing: border-box;
+margin: 0px;
+padding: 10px 10px;
+font-size: 42px;
+position: relative;
+text-align: center;
+letter-spacing: 0px;
+}
+
+.text22{ height: 80%;
+    width: 80%;
+    position: relative;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    display: inline-block; /*(задає параметри в середині рамки border строго під параметри)*/
+    max-width: 300px; /*(максимальна висота вікна)*/
+    max-height: 300px; /*(максимальна ширина вікна)*/
+    margin-top:0px;
+    padding: 0px;
+border:  #694639 solid 1px ;
+}
+
+.text22:hover{
+   background: url(css/b/локони.png );
+}
+
+
+.text222{ 
+    display: inline-block;/* (задає параметри в середині рамки border строго під параметри)*/
+    max-width: 450px; /*(максимальна висота вікна)*/
+    max-height: 450px; /*(максимальна ширина вікна)*/
+    margin-top:50px;
+    padding-left: 10px;
+    padding: 0px;
+    padding-top: 20px;
+   color: #694639;
+   text-align: center;
+}
+
+.text2222{ 
+    display: inline-block;/* (задає параметри в середині рамки border строго під параметри)*/
+    max-width: 450px; /*(максимальна висота вікна)*/
+    max-height: 450px; /*(максимальна ширина вікна)*/
+    margin-top:0px;
+    padding-left: 10px;
+    padding: 0px;
+    padding-top: -20px;
+    font-family: Montserrat;
+   color: #694639;
+   text-align: center;
+   line-height: 19px;
+}
+
+.text2222loconu{ 
+    display: inline-block;/* (задає параметри в середині рамки border строго під параметри)*/
+    max-width: 450px; /*(максимальна висота вікна)*/
+    max-height: 450px; /*(максимальна ширина вікна)*/
+    margin-top:50px;
+    padding-left: 10px;
+    padding: 0px;
+    padding-top: -20px;
+    font-family: Montserrat;
+   color: #694639;
+   text-align: center;
+   line-height: 21px;
+}
+
+
+.text2222con{ 
+    display: inline-block;/* (задає параметри в середині рамки border строго під параметри)*/
+    max-width: 800px; /*(максимальна висота вікна)*/
+    max-height: 450px; /*(максимальна ширина вікна)*/
+    margin-top:0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding: 0px;
+    padding-top: -20px;
+    font-family: Montserrat;
+   color: #694639;
+   text-align: center;
+   line-height: 21px;
+   
+}
+
+iframe{ 
+   
+      /*Выравнивание по левому краю */
+    margin: 50px 40px 50px 40px; /* Отступы вокруг картинки */
+    text-align: center;
+ /*  border: red solid 1px;   */
+ /* може треба буде забрати цей відступ   */
+ padding: 0px;
+ display: inline-block;
+
+}
+
+.text2222plet{ 
+    display: inline-block;/* (задає параметри в середині рамки border строго під параметри)*/
+    max-width: 450px; /*(максимальна висота вікна)*/
+    max-height: 450px; /*(максимальна ширина вікна)*/
+    margin-top:50px;
+    padding-left: 10px;
+    padding: 0px;
+    padding-top: -20px;
+    font-family: Montserrat;
+   color: #694639;
+   text-align: center;
+   line-height: 21px;
+}
+
+.text3{
+    max-height: 1500px;
+    max-width: 1500px;
+    width:99%;
+    font-size:36px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    letter-spacing: 0px; /*(задає відстань між буквами)*/
+    word-spacing: 5px; /*(задає відстань між словами)*/
+
+}
+
+
+.text4 {
+    min-height: 350px;
+    max-width: 33%,3;
+    width:400px;
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 2px 2px;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.text5{
+    min-height: 350px;
+    max-width: 33,3%;
+    width:400px;
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 2px 2px;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.text6{
+    min-height: 350px;
+    max-width: 33,3%;
+    width:400px;
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 2px 2px;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+    
+.why{ 
+    display: inline-block;/* (задає параметри в середині рамки border строго під параметри)*/
+    max-width: 1500px; /*(максимальна висота вікна)*/
+    max-height: 600px; /*(максимальна ширина вікна)*/
+    margin-top:20px;
+    padding-left: 10px;
+    padding: 0px;
+    padding-top: -20px;
+    font-family: Montserrat;
+   color: #694639;
+   text-align: center;
+}   
+
+.text7{
+  
+    max-width: 1500px;
+    width:100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 0px 0px;
+    text-align: center;
+    color: #694639;
+    margin-bottom: 0px;
+}
+
+.my_photo{
+     /*border:red solid 1px;  */
+    margin-top:36px;
+}
+.leftimg {
+    float:left;  /*Выравнивание по левому краю */
+    margin: 20px 0px 25px 60px; /* Отступы вокруг картинки */
+    text-align: center;
+   /* border: red solid 1px;   */
+    padding: 0px;
+    border-image: 30px;
+ /* може треба буде забрати цей відступ   */
+    
+}
+
+.leftimg2 {
+    float:left;  /*Выравнивание по левому краю */
+    margin: 0px 0px 0px 60px; /* Отступы вокруг картинки */
+    text-align: center;
+   /* border: red solid 1px;   */
+    padding: 0px;
+    border-image: 30px;
+ /* може треба буде забрати цей відступ   */ 
+}
+
+.leftimg3 {
+    float:left;  /*Выравнивание по левому краю */
+    margin: 80px 0px 0px 60px; /* Отступы вокруг картинки */
+    text-align: center;
+   /* border: red solid 1px;   */
+    padding: 0px;
+    border-image: 30px;}
+ /* може треба буде забрати цей відступ   */
+
+ .leftimg4 {
+    float:left;  /*Выравнивание по левому краю */
+    margin: 170px 0px 0px 60px; /* Отступы вокруг картинки */
+    text-align: center;
+   /* border: red solid 1px;   */
+    padding: 0px;
+    border-image: 30px;}
+
+.text8{
+    min-height: 300px;
+    max-width: 1500px;
+    width:100%;
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 2px 2px;
+}
+
+.im1{
+    /* border:1px solid red; */
+    margin: 0 auto;
+    width: 30%;
+    text-align: center; 
+    min-height: 80%;
+    margin-top: 0px;
+}
+
+.about {
+    color: black;
+    font-family: Montserrat;
+}
+
+.opus{
+    font-family: Montserrat;
+    text-align: center;
+    letter-spacing: 0px; 
+    word-spacing: 5px;
+    font-size: 36px;
+    position: relative;
+    margin: 10px 10px;
+padding: 10px 10px;
+/* border: red solid 1px;  */
+}
+
+
+
+.footer{
+    float: left;
+   
+    width: 100%;
+    padding: 1%;
+    background:#e0dede ;
+    color: rgb(247, 244, 244) ;
+    text-align: center;
+    margin-top: auto;
+}
+
+.content{
+    flex-grow:1 ;
+}
+/* border: red solid 1px;  
+
+
+
+
+
+.content:after{
+    content:'';
+    display:block;
+}
+
+.content:after .footer{
+    height: 58px;
+}*/
+
+.footerleft{
+    float: left;
+    width: 50%;
+    text-align: center;
+    color: #694639;
+    font-family: Montserrat;
+    margin-top: 0px;
+    line-height: 30px;
+    margin-top: auto;
+}
+
+
+
+/*.footercenter{
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin-top: 25px;
+}*/
+
+.footerright{
+    float: right;
+    width: 50%;
+    color: white;
+    margin-top: 7px;
+    text-align:center;
+    line-height: 20px;
+    margin-top: auto;
+}
+
+
+
+
+/*span.button {
+    position: relative;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(css/b/LB.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+
+
+    p.white2{
+    text-align: left;
+    color: white;
+    border: red solid 1px;
+    box-sizing: border-box;
+    max-width: 100px;
+    max-height: 100px;
+
+
+    #E8BAD7; 
+    
+    
+    
+    
+    #FFEDF8
+    #6D6D6D
+}
+}*/
+
+
+
+/*
+
+a.text22 {
+    background: url(css/b/плетіння-опис.jpg ); /* Путь к файлу с исходным рисунком  
+    display: block; /*  Рисунок как блочный элемент 
+    width: 196px; /* Ширина рисунка 
+    height: 183px; /*  Высота рисунка 
+   }
+   a.text22:hover {
+    background: url(css/b/локони.png); /* Путь к файлу с заменяемым рисунком  
+   }
+   
+h6{
+       margin-bottom: 100px;
+       margin-top:100px ;
+   } */
+   h5{
+       margin-bottom: 50px;
+       margin-top: 50px;
+   }
+   
