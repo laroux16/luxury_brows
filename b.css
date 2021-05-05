@@ -185,7 +185,7 @@ p{
 }
 
 body{
-    background-image: url(LuxuryBrows-background.jpg);
+    background-image: url(css/b/LuxuryBrows-background.jpg);
     position: relative;
                 padding-bottom: 58px;
                 box-sizing: border-box;
@@ -236,7 +236,7 @@ border:  #694639 solid 1px ;
 }
 
 .text22:hover{
-   background: url(локони.png );
+   background: url(css/b/локони.png );
 }
 
 
